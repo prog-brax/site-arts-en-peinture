@@ -1,3 +1,3 @@
-# Site web : Art en peinture
+# Site web : Arts en peinture
 
-Site pour l'activité d'art en peinture du foyer rural de Brax
+Site pour l'activité d'arts en peinture du foyer rural de Brax
