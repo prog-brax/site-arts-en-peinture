@@ -1,0 +1,87 @@
+{
+  "artists": [
+    {
+      "name": "Matheo",
+      "bio": "Matheo is a passionate artist who loves to create unique pieces of art. He enjoys experimenting with different styles and techniques."
+    },
+    {
+      "name": "Liam",
+      "bio": "Liam is a digital artist who specializes in creating stunning illustrations and concept art. He draws inspiration from nature and fantasy."
+    }
+  ],
+  "cycles": [
+    {
+      "title": "Portraits",
+      "teacher": "John Doe",
+      "description": "Learn the art of portrait painting, focusing on capturing likeness and expression. This cycle will cover various techniques and styles.",
+      "startDate": "2023-10-01",
+      "endDate": "2023-12-01"
+    },
+    {
+      "title": "Art Abstrait",
+      "teacher": "Jane Smith",
+      "description": "Explore the world of abstract art, where you can express your emotions and ideas through colors and shapes. This cycle encourages creativity and experimentation.",
+      "startDate": "2023-11-01",
+      "endDate": "2024-01-01"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "John Doe",
+      "bio": "John is a professional artist with over 10 years of experience in the field. He teaches various art techniques and styles."
+    },
+    {
+      "name": "Jane Smith",
+      "bio": "Jane is a renowned painter known for her vibrant colors and unique compositions. She has exhibited her work in galleries worldwide."
+    }
+  ],
+  "artworks": [
+    {
+      "artist": "Matheo",
+      "technics": [
+        "acrylic",
+        "oil",
+        "watercolor"
+      ],
+      "cycle": "Art Abstrait",
+      "photos": [
+        {
+          "filename": "ph-00000001.jpg",
+          "date": "2023-10-01"
+        },
+        {
+          "filename": "ph-00000002.jpg",
+          "date": "2023-10-05"
+        }
+      ]
+    },
+    {
+      "artist": "Matheo",
+      "cycle": "Portraits",
+      "technics": [
+        "digital",
+        "vector"
+      ],
+      "photos": [
+        {
+          "filename": "ph-00000003.jpg",
+          "date": "2023-10-15"
+        }
+      ]
+    },
+    {
+      "artist": "Liam",
+      "cycle": "Portraits",
+      "technics": [
+        "digital",
+        "vector"
+      ],
+      "photos": [
+        {
+          "filename": "ph-00000004.jpg",
+          "date": "2023-11-10"
+        }
+      ]
+    }
+  ]
+}
