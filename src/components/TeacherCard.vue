@@ -1,15 +1,14 @@
 <template>
-  <q-card flat bordered class="teacher-card wrap exemplecursive">
+  <q-card @click="$router.push(teacher.name)" flat bordered class="teacher-card wrap exemplecursive">
     <img :src="'public/artworks/' + firstPhotoFromFirstArtworkForCycle.filename" class="image-taille" />
 
     <q-card-section class="blue exemplecursive">
       <div class="text-h6">{{ teacher.name }}</div>
     </q-card-section>
     <q-card-section class="q-pt-none exemplecursive light-blue"> {{ teacher.bio }} </q-card-section>
-    <q-card-section v-for="cycle in cycles" :key="cycle.teacher" class="q-pt-none">
-      <q-btn outline color="green-5" @click="$router.push('cycle/' + cycle.title)">
-        {{ cycle.title }}
-      </q-btn>
+    <q-card-section v-for="cycle in cycles" :key="cycle.teacher" class="q-pt-none light-green">
+      <p>Le(s) cycle(s) de ses/son intervention(s) sont :</p>
+      {{ cycle.title }}
     </q-card-section>
   </q-card>
 </template>
@@ -69,6 +68,10 @@ div {
 
 .light-blue {
   background-color: lightblue;
+}
+
+.light-green {
+  background-color: lightgreen;
 }
 
 .image-taille {
