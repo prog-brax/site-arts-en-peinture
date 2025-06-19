@@ -22,12 +22,12 @@ import { computed } from 'vue'
 import dataBase from 'src/data/database.json'
 
 const firstCycle = computed(() => {
-  return dataBase.cycles[0]
+  return dataBase.cycles[1]
 })
 </script>
 
 <style>
-.background {
+body {
   background-color: lightgrey;
 }
 
