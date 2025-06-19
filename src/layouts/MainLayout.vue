@@ -4,8 +4,8 @@
       <q-toolbar>
         <q-toolbar-title> Arts en peinture </q-toolbar-title>
         <q-btn flat @click="$router.push({ name: 'home' })" icon="mdi-home"></q-btn>
-        <q-btn flat @click="$router.push('/intervenant/')" icon="">intervenant</q-btn>
-        <q-btn flat @click="$router.push('/cycle/')" icon="">cycle</q-btn>
+        <q-btn flat @click="$router.push('/intervenant/')">intervenant</q-btn>
+        <q-btn flat @click="$router.push('/cycle/')">cycle</q-btn>
       </q-toolbar>
     </q-header>
 
