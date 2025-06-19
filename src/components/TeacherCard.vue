@@ -1,5 +1,5 @@
 <template>
-  <q-card @click="$router.push(teacher.name)" flat bordered class="teacher-card wrap exemplecursive">
+  <q-card @click="$router.push('intervenant/' + teacher.name)" flat bordered class="teacher-card wrap exemplecursive">
     <img :src="'public/artworks/' + firstPhotoFromFirstArtworkForCycle.filename" class="image-taille" />
 
     <q-card-section class="blue exemplecursive">
